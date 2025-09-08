@@ -13,7 +13,7 @@ security_env/
 db.sqlite3
 
 # Django Secrets
-.env
+
 
 # IDE/editor
 .vscode/
