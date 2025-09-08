@@ -92,7 +92,8 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
 DATABASES = {
-    'default': dj_database_url.config(default=config('DB_URL'))
+    #This DB url must be secret but this time I am opening my DB url for practice 
+    'default': dj_database_url.config(default='postgresql://django_auth_project_vrpi_user:UIaYAJQCwFknn9s7tN3dLFffkBjPEODR@dpg-d2vjagvdiees738ejvpg-a.oregon-postgres.render.com/django_auth_project_vrpipip install -r requirements.txt; python manage.py collectstatic --noinput')
 }
 
 
